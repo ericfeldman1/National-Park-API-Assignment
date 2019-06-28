@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  p {
+    font-style: italic;
+  }
+  
+  .search, .submitButton {
+    display: block;
+    margin-top: 30px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+  }
+  
+  .submitButton {
+    padding: 5px;
+    width: 100px;
+  }
+  
+  .submitButton:hover {
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .error-message {
+      color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
+  
